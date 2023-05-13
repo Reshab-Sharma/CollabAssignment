@@ -1,0 +1,54 @@
+.NavbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.8rem ;
+    border-bottom: 0.977597px solid #D9DADC;
+}
+
+.NavbarContainer .rightSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavbarContainer .rightSection .NavbarContainerPara{
+    font-family: 'TT norms pro';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.NavbarContainer .rightSection button{
+
+padding: 12px 24px;
+gap: 9px;
+
+color:#fff;
+background: #000000;
+border-radius: 30px;
+border:none;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 110%;
+margin-left:1rem
+
+}
+
+@media (max-width:780px){
+.NavbarContainer{
+   width: 100%;
+   flex-direction: column;
+   padding: 1rem;
+}
+.rightSection{
+    margin-top:0.5rem;
+}
+
+}

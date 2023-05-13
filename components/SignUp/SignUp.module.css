@@ -1,0 +1,231 @@
+/* @import url('https://fonts.cdnfonts.com/css/tt-norms-pro'); */
+
+.signUpContainer{
+    width:50%;
+    margin: 1rem auto;
+    
+}
+
+.signUpBelowContainer{
+    /* width:50%;
+    margin: 1rem auto;
+        border:1px solid #0A66C2; */
+
+}
+.SignUpContainerPara{
+    font-family: 'TT Norms Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 118.1%;
+color: #2C2C2C;
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.LinkedinButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1.5rem;
+
+}
+.LinkedinButton .Logo{
+    background: #0A66C2;
+    border-radius: 6px 0px 0px 6px;
+    padding: 1rem;
+}
+
+.LinkedinButton .Text{
+width: 273px;
+height: 59px;
+
+background: #EEEEEE;
+border-radius: 0px 6px 6px 0px;
+border: none;
+font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+}
+
+.GoogleLogo{
+    padding: 1rem;
+    background: #4285F4;
+border-radius: 6px 0px 0px 6px;
+}
+
+.signUpOrContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem auto;
+
+}
+.signUpOrContainer .OrText{
+    font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+
+color: #989898;
+margin: 0 1rem;
+
+}
+
+.inputBoxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.inputBoxLabel{
+    font-family: 'TT Norms Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: -0.154px;
+
+/* Grey/900 */
+
+color: #111B2B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+justify-content: center;
+}
+.inputBoxLabelRequired{
+    font-family: 'TT Norms Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: -0.154px;
+
+/* Grey / 500 */
+
+color: #67728A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.inputBox{
+    background: #FFFFFF;
+
+border: 1px solid #CFD9E0;
+/* Inner Shadow/Default */
+
+box-shadow: inset 0px 2px 0px rgba(231, 235, 238, 0.2);
+border-radius: 6px;
+padding: 1rem;
+width:213px;
+}
+.SignUpBtn{
+    border:none;
+   
+
+width:80%;
+padding: 1rem;
+background: #252525;
+border-radius: 29px;
+font-family: 'TT Norms Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+
+color: #FFFFFF;
+text-align: center;
+}
+.Btn{
+    text-align: center;
+    margin-top:3rem
+}
+
+.BottomContainer{
+    text-align: center;
+}
+
+ .BottomPara{
+font-family: 'TT Norms Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+
+color: #050505;
+}
+
+/* PhoneInputCss */
+
+.PhoneInput{
+     background: #FFFFFF;
+
+border: 1px solid #CFD9E0;
+/* Inner Shadow/Default */
+
+box-shadow: inset 0px 2px 0px rgba(231, 235, 238, 0.2);
+border-radius: 6px;
+padding:0rem 1rem;
+width:213px;
+}
+/* .PhoneInput--focus{
+    border:none !important;
+} */
+
+@media (max-width:780px){
+  .signUpContainer{
+    width:100%;
+    margin: 1rem auto;
+    
+}  
+.signUpOrContainer{
+width: 100%;
+}
+.LineIcon{
+    display: none;
+}
+.inputBoxContainer{
+    width:100%;
+    flex-direction: column;
+    
+}
+.inputBox{
+    width:100%;
+}
+.SignUpContainerPara{
+   font-size: 15px;
+}
+.Text{
+    font-size: 10px;
+
+}
+
+
+
+}
